@@ -3,7 +3,10 @@ var builder = WebApplication.CreateBuilder(args);
 //string lastName = "Gavilan";
 string? lastName = null;
 
+
 string lastNameInUpperCase = lastName?.ToUpper();
+
+
 
 var app = builder.Build();
 
